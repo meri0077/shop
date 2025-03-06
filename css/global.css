@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    padding: 0 50px;
+}
+
+header .row{
+    justify-content: space-between;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.align-center{
+    align-items: center;
+}
+.align-end{
+    align-items: end;
+}
+.col{
+    padding: 20px;
+}
+
+/* main .col{
+    width: 100%;
+} */
+
+a{
+    display: inline-block;
+    padding: 5px;
+    color: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.w-40{
+    width: 40%;
+}
+.w-33{
+    width: 33.3%;
+}
+.w-25{
+    width: 25%;
+}
+
+header .icon img{
+    width: 32px;
+}
+
+button{
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+picture{
+    display: block;
+    font-size: 0;
+}
+img{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-no-wrap{
+    flex-wrap: nowrap;
+}
+
+input{
+    outline: none;
+}
+
+.h-50{
+    height: 50px;
+}
+.none{
+    display: none;
+}
+header .row .hamburger-menu{
+    width: 20px;
+    height: 15px;
+}
+.hamburger-menu .line{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 0;
+}
+

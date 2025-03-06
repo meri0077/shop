@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/global.css">
+    <style>
+        .wrapper{
+            position: relative;
+            overflow: hidden;   
+        }
+        .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.685);
+            top: 0;
+            left: 100%;
+            transition: all .3s linear;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrapper:hover .overlay{
+            left: 0;   
+        }
+        .plus{
+            font-size: 50px;
+            padding: 20px;
+            background-color: black;
+            color: wheat;
+            white-space: nowrap;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <section id="images">
+        <div class="row">
+            <div class="col w-25">
+                <div class="wrapper">
+                    <picture><img src="https://canvastemplate.com/images/portfolio/4/1.jpg" alt=""></picture>
+                    <div class="overlay">
+                        <div class="plus">+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col w-25">
+                <div class="wrapper">
+                    <picture><img src="https://canvastemplate.com/images/portfolio/4/3.jpg" alt=""></picture>
+                    <div class="overlay">
+                        <div class="plus">+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col w-25">
+                <div class="wrapper">
+                    <picture><img src="https://canvastemplate.com/images/portfolio/4/2.jpg" alt=""></picture>
+                    <div class="overlay">
+                        <div class="plus">+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col w-25">
+                <div class="wrapper">
+                    <picture><img src="https://canvastemplate.com/images/portfolio/4/4.jpg" alt=""></picture>
+                    <div class="overlay">
+                        <div class="plus">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="https://canvastemplate.com/images/portfolio/4/4.jpg" alt="">
+
+</body>
+</html>
