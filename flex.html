@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .between{
+            justify-content: space-between;
+            
+        }
+        .row{
+            display: flex;
+            align-items: end;
+        }
+        .row .col{
+            width: 100%;
+            background-color: brown;
+            border: 1px solid black;
+        }
+        .lines div{
+            width: 100%;
+            height: 3px;
+            background-color: black;
+            /* margin: 5px; */
+        }
+
+        .lines{
+            display: flex;
+            width: 70px;
+            height: 40px;
+            flex-wrap: wrap;
+            align-content: space-between;
+            /* flex-direction: column; */
+            /* justify-content: space-between; */
+        }
+    </style>
+</head>
+<body>
+    <div class="row between">
+        <div class="col">
+            <div class="wrapper">1</div>
+        </div>
+        <div class="col">
+            <div class="wrapper">2</div>
+        </div>
+        <div class="col">
+            <div class="wrapper">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore qui rerum tenetur mollitia doloremque. Blanditiis, ducimus, amet quos a dolorem atque incidunt illo necessitatibus aspernatur, illum sequi qui. Ullam, totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi asperiores dolores blanditiis tenetur? Voluptate deserunt vero amet veritatis pariatur possimus. Molestias, deleniti ea? Impedit quaerat sit unde deleniti asperiores.</div>
+        </div>
+        <div class="col">
+            <div class="wrapper">4</div>
+        </div>
+    </div>
+
+    <div class="lines">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
